@@ -1,15 +1,15 @@
 require "../src/imgkit"
 
 # Info
-img = ImgKit::Image.new("casa_verde_01.jpg")
+img = ImgKit::Image.new("green_house_01.jpg")
 info = img.info
 puts "Path: #{info[:path]} Width: #{info[:width]}px Height: #{info[:height]}px"
 img.finish
 
 # Resize
-img = ImgKit::Image.new("casa_verde_01.jpg")
+img = ImgKit::Image.new("green_house_01.jpg")
 img.resize(width: 200)
-img.save("output/casa_verde_01.jpg")
+img.save("output/green_house_01.jpg")
 img.finish
 
 # Blur
