@@ -2,8 +2,9 @@ require "../src/imgkit"
 
 # Info
 img = ImgKit::Image.new("green_house_01.jpg")
+puts "Directly:: Path: #{img.path} Width: #{img.width}px Height: #{img.height}px"
 info = img.info
-puts "Path: #{info[:path]} Width: #{info[:width]}px Height: #{info[:height]}px"
+puts "Undirectly:: Path: #{info[:path]} Width: #{info[:width]}px Height: #{info[:height]}px"
 img.finish
 
 # Resize
