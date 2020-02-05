@@ -34,6 +34,10 @@ module ImgKit
       @height = LibMagickWand.MagickGetImageHeight(@wand)
     end
 
+    def info
+      {:path => @path, :width => @width, :height => @height}
+    end
+
     def resize(width = 0, height = 0, filter = LibMagickWand::FilterTypes::Lanczos2Filter)
       # width : height
       ratio = @width.fdiv @height
