@@ -52,8 +52,6 @@ img.save("output/combin.png")
 img.finish
 ```
 
-TODO: Write usage instructions here
-
 ## Development
 
 TODO: Write development instructions here
