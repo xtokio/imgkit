@@ -1,4 +1,4 @@
-# imgkit
+# ImgKit
 
 TODO: Write a description here
 
